@@ -1,0 +1,79 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+table, th, td {
+	border: 1px solid;
+	text-align: center;
+	margin-left: 15px;
+  }
+h1 {
+	text-align: center;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	border-radius: 8px;
+	padding: 5px;
+	color: #000000;
+	font-size: 48px;
+	margin-bottom: 2px;
+	background-color:rgba(255, 255, 255, 0.877);
+	}
+body {
+	background-image: url("https://cdn.arstechnica.net/wp-content/uploads/2018/02/DNA-data-storage-800x450.jpg");
+	background-position: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	margin-bottom: 4px;
+	margin-top: 4px;	
+    text-align: justify;}
+li{
+	text-align: left;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	margin-left: 18px;	
+}
+.full {
+	width: 100%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(2, 2, 2);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgba(255, 255, 255, 0.877);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgba(47, 168, 255, 0.764);
+	padding: 20px;
+
+}
+.image, .Contacto, .Habilidades, .Idioma, .Hobbies, .title,
+.Resumen, .Experiencia, .Educacion, .Proyectos {
+	margin-bottom: 20px;
+}
+h2 {
+	background-color: rgb(208, 208, 208);
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.emphasized { font-style: italic; 
+	font-size: 30px;
+ }
+.cursiva
+{ font-style: italic; 
+	font-size: 15px;
+ }
+h3{margin-top: 10px;
+	margin-bottom: 8px;}
